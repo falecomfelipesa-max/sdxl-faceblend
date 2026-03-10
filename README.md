@@ -1,7 +1,7 @@
 # SDXL + IP-Adapter FaceID — Blend de Identidade Dual
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/sdxl-faceblend/blob/main/FaceBlend_Colab.ipynb)
-[![Lint](https://github.com/YOUR_GITHUB_USERNAME/sdxl-faceblend/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/sdxl-faceblend/actions)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/falecomfelipesa-max/sdxl-faceblend/blob/main/FaceBlend_Colab.ipynb)
+[![Lint](https://github.com/falecomfelipesa-max/sdxl-faceblend/actions/workflows/ci.yml/badge.svg)](https://github.com/falecomfelipesa-max/sdxl-faceblend/actions)
 
 > **Rodando na nuvem? Clique no badge acima.** Não precisa de GPU local.
 
