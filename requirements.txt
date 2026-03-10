@@ -1,0 +1,23 @@
+# ─── Core: Diffusers + Transformers ──────────────────────────────────────────
+torch>=2.1.0                  # GPU: instalar via https://pytorch.org com CUDA 11.8 ou 12.1
+torchvision>=0.16.0
+diffusers>=0.25.0
+transformers>=4.37.0
+accelerate>=0.27.0
+safetensors>=0.4.0
+xformers>=0.0.23              # Atenção eficiente em memória (requer CUDA)
+
+# ─── IP-Adapter FaceID ────────────────────────────────────────────────────────
+# Instalação direta do repositório oficial:
+#   pip install git+https://github.com/tencent-ailab/IP-Adapter.git
+ip-adapter @ git+https://github.com/tencent-ailab/IP-Adapter.git
+
+# ─── InsightFace + dependências ───────────────────────────────────────────────
+insightface>=0.7.3
+onnxruntime-gpu>=1.17.0       # usar onnxruntime (sem -gpu) se não tiver CUDA
+opencv-python>=4.9.0
+
+# ─── Utilitários ─────────────────────────────────────────────────────────────
+numpy>=1.26.0
+Pillow>=10.0.0
+huggingface-hub>=0.21.0

@@ -1,0 +1,41 @@
+# ─── Modelos e pesos (grandes demais para o Git) ─────────────────────────────
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# ─── Saídas geradas ──────────────────────────────────────────────────────────
+output/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# ─── Ambientes Python ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ─── Caches HuggingFace / InsightFace ────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+~/.insightface/
+
+# ─── Jupyter / Colab checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── IDEs ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── Variáveis de ambiente / segredos ────────────────────────────────────────
+.env
+*.env
+secrets.json
